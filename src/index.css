@@ -10,3 +10,19 @@ a {
   max-width: 1920px !important;
   margin: 0 !important;
 }
+
+.scroll-animation {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+  width: max-content;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
