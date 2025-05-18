@@ -14,7 +14,7 @@ a {
 .scroll-animation {
   display: inline-flex;
   white-space: nowrap;
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 60s linear infinite;
   width: max-content;
 }
 
