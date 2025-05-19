@@ -25,11 +25,11 @@ const Stack = () => {
         {[...stackItems, ...stackItems, ...stackItems].map((item, index) => (
           <div
             key={index}
-            className="flex items-center px-5 whitespace-nowrap w-full"
+            className="flex items-center px-4 whitespace-nowrap w-full"
           >
             {item.icon}
-            <p className="ml-2 font-[Satoshi]">{item.label}</p>
-            <span className="mx-4">●</span>
+            <p className="ml-2">{item.label}</p>
+            <span className="px-4">●</span>
           </div>
         ))}
       </div>

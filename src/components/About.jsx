@@ -4,7 +4,7 @@ import aboutImg from "../assets/aboutImg.jpg";
 const About = () => {
   return (
     <div className="mt-90 ml-[40px] text-left h-screen overflow-hidden">
-      <h2 className="font-[Afacad] text-[128px] leading-[0.9] tracking-tight">
+      <h2 className=" text-[128px] leading-[0.9] tracking-tight">
         My expertise lies in translating UI/UX
         <br />
         designs into functional, pixel-perfect <br />
@@ -13,7 +13,7 @@ const About = () => {
       </h2>
       <div className="flex flex-row mt-[55px] justify-between ">
         <img src={aboutImg} />
-        <p className=" font-[Satoshi] text-base pr-[40px]">
+        <p className="text-base pr-[40px]">
           Over the years, I’ve collaborated with cross-functional teams to build
           scalable
           <br />

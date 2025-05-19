@@ -6,6 +6,15 @@ a {
   font-family: "Satoshi";
 }
 
+h1,
+h2 {
+  font-family: "Afacad";
+}
+
+p {
+  font-family: "Satoshi";
+}
+
 #root {
   max-width: 1920px !important;
   margin: 0 !important;
