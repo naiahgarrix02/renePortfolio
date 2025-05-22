@@ -21,10 +21,7 @@ p {
 }
 
 .scroll-animation {
-  display: inline-flex;
-  white-space: nowrap;
-  animation: scroll-left 60s linear infinite;
-  width: max-content;
+  animation: scroll-left 10s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -32,6 +29,6 @@ p {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }

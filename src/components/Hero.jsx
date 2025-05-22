@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="max-w-[1920px] flex">
       <div className="text-left">
-        <h1 className="text-[350px] leading-[0.65] tracking-tight py-20 px-[40px] z-10 relative">
+        <h1 className="text-[350px] leading-[0.65] tracking-tight top-30 pb-50 px-[40px] z-10 relative">
           softwaré
           <br />
           engineer.
@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="flex flex-row">
           <img className="pl-[40px] pr-[20px]" src={arrowdown} />
           <p className="py-4">
-            ...with over 5 years of professional experience. let me take you
+            with over 5 years of professional experience. let me take you
             <br />
             through my portfolio, (which is why you’re here anyway) and take a
             <br />
@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
 
       <img
-        className="absolute top-20 left-[1140px] h-[950px] z-10"
+        className="absolute top-30 left-[1140px] h-[950px] z-10"
         src={heroImg}
       />
     </div>

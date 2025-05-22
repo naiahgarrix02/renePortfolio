@@ -1,5 +1,5 @@
 import React from "react";
-import arrowDown from "../assets/arrowdown.svg";
+import arrowRight from "../assets/arrowright.svg";
 
 const ProjectsIntro = () => {
   return (
@@ -10,13 +10,13 @@ const ProjectsIntro = () => {
           <br />
           Well, I'm glad you asked!
         </h2>
-        <p className="text-base text-left">
-          Oh, and we’re scrolling to the right now,
-          <br /> gotta keep things interesting!
-        </p>
-      </div>
-      <div className="items-end">
-        <img className="transform rotate-270" src={arrowDown} />
+        <div className="flex flex-row items-center">
+          <p className="text-base text-left">
+            Oh, and we’re scrolling to the right now,
+            <br /> gotta keep things interesting!
+          </p>
+          <img className="pl-10" src={arrowRight} />
+        </div>
       </div>
     </div>
   );

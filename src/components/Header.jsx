@@ -4,8 +4,10 @@ const Header = () => {
   return (
     <div className="max-w-[1075px] flex justify-between items-center mx-auto">
       <nav className="space-x-8">
-        <a className="text-black text-base hover">home</a>
-        <a className="text-gray-700 text-base hover:text-black">about</a>
+        <a className=" text-black text-base hover cursor-pointer">home</a>
+        <a className="text-gray-700 text-base hover:text-black cursor-pointer">
+          about
+        </a>
       </nav>
 
       <div>
@@ -13,8 +15,12 @@ const Header = () => {
       </div>
 
       <nav className="space-x-8">
-        <a className="text-gray-700 text-base hover:text-black">projects</a>
-        <a className="text-gray-700 text-base hover:text-black">contact</a>
+        <a className="text-gray-700 text-base hover:text-black cursor-pointer">
+          projects
+        </a>
+        <a className="text-gray-700 text-base hover:text-black cursor-pointer">
+          contact
+        </a>
       </nav>
     </div>
   );
