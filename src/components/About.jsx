@@ -13,7 +13,7 @@ const About = () => {
       </h2>
       <div className="flex flex-row mt-[55px] justify-between ">
         <img src={aboutImg} />
-        <p className="text-base pr-[40px]">
+        <p className="text-base pr-[200px]">
           Over the years, I’ve collaborated with cross-functional teams to build
           scalable
           <br />

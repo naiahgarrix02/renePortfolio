@@ -3,7 +3,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Stack from "./components/Stack";
-import ProjectsIntro from "./components/ProjectsIntro";
+import Pintro from "./components/Pintro";
 import Projects from "./components/Projects";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <About />
       <Stack />
-      <ProjectsIntro />
+      <Pintro />
       <Projects />
     </>
   );
