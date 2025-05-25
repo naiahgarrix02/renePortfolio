@@ -20,6 +20,13 @@ p {
   margin: 0 !important;
 }
 
+.bg-background {
+  background-image: url("/projectsimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .scroll-animation {
   animation: scroll-left 10s linear infinite;
 }
